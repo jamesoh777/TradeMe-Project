@@ -1,0 +1,206 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'moment',
+1 verbose cli   '-g',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'moment', null ]
+5 verbose cache add name=undefined spec="moment" args=["moment",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'moment',
+6 verbose parsed url   path: 'moment',
+6 verbose parsed url   href: 'moment' }
+7 silly lockFile b56def36-moment moment
+8 verbose lock moment /Users/oJames777/.npm/b56def36-moment.lock
+9 silly lockFile b56def36-moment moment
+10 silly lockFile b56def36-moment moment
+11 verbose addNamed [ 'moment', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 42aa250a-moment moment@
+14 verbose lock moment@ /Users/oJames777/.npm/42aa250a-moment.lock
+15 silly addNameRange { name: 'moment', range: '*', hasData: false }
+16 verbose request where is /moment
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 182416aa92f15b00
+19 verbose url raw /moment
+20 verbose url resolving [ 'https://registry.npmjs.org/', './moment' ]
+21 verbose url resolved https://registry.npmjs.org/moment
+22 verbose request where is https://registry.npmjs.org/moment
+23 info trying registry request attempt 1 at 14:48:55
+24 http GET https://registry.npmjs.org/moment
+25 http 200 https://registry.npmjs.org/moment
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Sat, 20 Sep 2014 02:48:57 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"9971EI9U3BFFEMSKEY1EWX9QU"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '47420',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '3070',
+26 silly registry.get     'x-served-by': 'cache-ak47-NZ',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1411181336.521301,VS0,VE744',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'moment', range: '*', hasData: true }
+28 silly addNameRange versions [ 'moment',
+28 silly addNameRange   [ '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.3.0',
+28 silly addNameRange     '1.4.0',
+28 silly addNameRange     '1.5.0',
+28 silly addNameRange     '1.5.1',
+28 silly addNameRange     '1.6.0',
+28 silly addNameRange     '1.6.1',
+28 silly addNameRange     '1.6.2',
+28 silly addNameRange     '1.7.0',
+28 silly addNameRange     '1.7.1',
+28 silly addNameRange     '1.7.2',
+28 silly addNameRange     '2.0.0',
+28 silly addNameRange     '2.1.0',
+28 silly addNameRange     '2.2.1',
+28 silly addNameRange     '2.3.0',
+28 silly addNameRange     '2.3.1',
+28 silly addNameRange     '2.4.0',
+28 silly addNameRange     '2.5.0',
+28 silly addNameRange     '2.5.1',
+28 silly addNameRange     '2.6.0',
+28 silly addNameRange     '2.7.0',
+28 silly addNameRange     '2.8.1',
+28 silly addNameRange     '2.8.2',
+28 silly addNameRange     '2.8.3' ] ]
+29 verbose addNamed [ 'moment', '2.8.3' ]
+30 verbose addNamed [ '2.8.3', '2.8.3' ]
+31 silly lockFile 707ecd2d-moment-2-8-3 moment@2.8.3
+32 verbose lock moment@2.8.3 /Users/oJames777/.npm/707ecd2d-moment-2-8-3.lock
+33 silly lockFile d4397d1b-pmjs-org-moment-moment-2-8-3-tgz https://registry.npmjs.org/moment/-/moment-2.8.3.tgz
+34 verbose lock https://registry.npmjs.org/moment/-/moment-2.8.3.tgz /Users/oJames777/.npm/d4397d1b-pmjs-org-moment-moment-2-8-3-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/moment/-/moment-2.8.3.tgz',
+35 verbose addRemoteTarball   'a01427bf8910f014fc4baa1b8d96f17f7e3f29a2' ]
+36 info retry fetch attempt 1 at 14:48:57
+37 verbose fetch to= /var/folders/pb/spd95k29503f38zqh0m_z1qr0000gn/T/npm-23821-nOuCpSyM/registry.npmjs.org/moment/-/moment-2.8.3.tgz
+38 http GET https://registry.npmjs.org/moment/-/moment-2.8.3.tgz
+39 http 200 https://registry.npmjs.org/moment/-/moment-2.8.3.tgz
+40 silly lockFile d4397d1b-pmjs-org-moment-moment-2-8-3-tgz https://registry.npmjs.org/moment/-/moment-2.8.3.tgz
+41 silly lockFile d4397d1b-pmjs-org-moment-moment-2-8-3-tgz https://registry.npmjs.org/moment/-/moment-2.8.3.tgz
+42 silly lockFile 707ecd2d-moment-2-8-3 moment@2.8.3
+43 silly lockFile 707ecd2d-moment-2-8-3 moment@2.8.3
+44 silly lockFile 42aa250a-moment moment@
+45 silly lockFile 42aa250a-moment moment@
+46 silly resolved [ { name: 'moment',
+46 silly resolved     version: '2.8.3',
+46 silly resolved     description: 'Parse, manipulate, and display dates.',
+46 silly resolved     homepage: 'http://momentjs.com',
+46 silly resolved     author:
+46 silly resolved      { name: 'Iskren Ivov Chernev',
+46 silly resolved        email: 'iskren.chernev@gmail.com',
+46 silly resolved        url: 'https://github.com/ichernev' },
+46 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+46 silly resolved     keywords:
+46 silly resolved      [ 'moment',
+46 silly resolved        'date',
+46 silly resolved        'time',
+46 silly resolved        'parse',
+46 silly resolved        'format',
+46 silly resolved        'validate',
+46 silly resolved        'i18n',
+46 silly resolved        'l10n',
+46 silly resolved        'ender' ],
+46 silly resolved     main: './moment.js',
+46 silly resolved     engines: { node: '*' },
+46 silly resolved     repository: { type: 'git', url: 'https://github.com/moment/moment.git' },
+46 silly resolved     bugs: { url: 'https://github.com/moment/moment/issues' },
+46 silly resolved     licenses: [ [Object] ],
+46 silly resolved     devDependencies:
+46 silly resolved      { 'uglify-js': 'latest',
+46 silly resolved        grunt: 'latest',
+46 silly resolved        nodeunit: 'latest',
+46 silly resolved        benchmark: 'latest',
+46 silly resolved        'grunt-contrib-jshint': 'latest',
+46 silly resolved        'grunt-contrib-nodeunit': 'latest',
+46 silly resolved        'grunt-contrib-concat': 'latest',
+46 silly resolved        'grunt-contrib-uglify': 'latest',
+46 silly resolved        'grunt-contrib-watch': 'latest',
+46 silly resolved        'grunt-env': 'latest',
+46 silly resolved        'grunt-jscs': 'latest',
+46 silly resolved        'grunt-karma': 'latest',
+46 silly resolved        'grunt-benchmark': 'latest',
+46 silly resolved        'grunt-string-replace': 'latest',
+46 silly resolved        'load-grunt-tasks': 'latest',
+46 silly resolved        karma: 'latest',
+46 silly resolved        'karma-chrome-launcher': 'latest',
+46 silly resolved        'karma-firefox-launcher': 'latest',
+46 silly resolved        'karma-nodeunit': 'latest',
+46 silly resolved        'karma-sauce-launcher': 'latest' },
+46 silly resolved     scripts: { test: 'grunt test:node' },
+46 silly resolved     ender: './ender.js',
+46 silly resolved     dojoBuild: 'package.js',
+46 silly resolved     jspm: { files: [Object], map: [Object], buildConfig: [Object] },
+46 silly resolved     spm: { main: 'moment.js', output: [Object] },
+46 silly resolved     _id: 'moment@2.8.3',
+46 silly resolved     dist:
+46 silly resolved      { shasum: 'a01427bf8910f014fc4baa1b8d96f17f7e3f29a2',
+46 silly resolved        tarball: 'http://registry.npmjs.org/moment/-/moment-2.8.3.tgz' },
+46 silly resolved     _from: 'moment@',
+46 silly resolved     _npmVersion: '1.4.6',
+46 silly resolved     _npmUser: { name: 'ichernev', email: 'iskren.chernev@gmail.com' },
+46 silly resolved     maintainers: [ [Object], [Object] ],
+46 silly resolved     directories: {},
+46 silly resolved     _shasum: 'a01427bf8910f014fc4baa1b8d96f17f7e3f29a2',
+46 silly resolved     _resolved: 'https://registry.npmjs.org/moment/-/moment-2.8.3.tgz' } ]
+47 info install moment@2.8.3 into /usr/local/lib
+48 info installOne moment@2.8.3
+49 verbose lib/node_modules/moment unbuild
+50 verbose tar unpack /Users/oJames777/.npm/moment/2.8.3/package.tgz
+51 silly lockFile ad6a2604-sr-local-lib-node-modules-moment tar:///usr/local/lib/node_modules/moment
+52 verbose lock tar:///usr/local/lib/node_modules/moment /Users/oJames777/.npm/ad6a2604-sr-local-lib-node-modules-moment.lock
+53 silly lockFile 06ae3019-777-npm-moment-2-8-3-package-tgz tar:///Users/oJames777/.npm/moment/2.8.3/package.tgz
+54 verbose lock tar:///Users/oJames777/.npm/moment/2.8.3/package.tgz /Users/oJames777/.npm/06ae3019-777-npm-moment-2-8-3-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/moment'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/moment']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/moment',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/moment',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 13.3.0
+59 error command "node" "/usr/local/bin/npm" "install" "moment" "-g" "--save"
+60 error cwd /Users/oJames777/Documents/openhome-scheduler-bubblehat
+61 error node -v v0.10.32
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/moment
+64 error fstream_path /usr/local/lib/node_modules/moment
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/moment'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
